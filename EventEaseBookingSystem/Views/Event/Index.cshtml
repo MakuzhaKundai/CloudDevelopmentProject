@@ -1,0 +1,25 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model IEnumerable<EventEaseBookingSystem.Models.EventModel>
+
+<h2>Events</h2>
+
+<div class="row">
+    @foreach (var ev in Model)
+    {
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+                <img src="@ev.ImageUrl" class="card-img-top" alt="@ev.EventName" />
+                <div class="card-body">
+                    <h5 class="card-title">@ev.EventName</h5>
+                    <p class="card-text">Date: @ev.Date.ToShortDateString()</p>
+                    <p class="card-text">Venue: @ev.VenueName</p>
+                    <a href="@Url.Action("Edit", new { id = ev.Id })" class="btn btn-primary">Edit</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>

@@ -1,0 +1,33 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model EventEaseBookingSystem.Models.EventModel
+
+<h2>Edit Event</h2>
+
+<form method="post">
+    <div class="form-group">
+        <label for="EventName">Event Name</label>
+        <input type="text" class="form-control" id="EventName" name="EventName" value="@Model.EventName" />
+    </div>
+    <div class="form-group">
+        <label for="VenueName">Venue Name</label>
+        <input type="text" class="form-control" id="VenueName" name="VenueName" value="@Model.VenueName" />
+    </div>
+    <div class="form-group">
+        <label for="Description">Description</label>
+        <textarea class="form-control" id="Description" name="Description">@Model.Description</textarea>
+    </div>
+    <div class="form-group">
+        <label for="ImageUrl">Image URL</label>
+        <input type="text" class="form-control" id="ImageUrl" name="ImageUrl" value="@Model.ImageUrl" />
+    </div>
+    <div class="form-group">
+        <label for="Date">Event Date</label>
+        <input type="date" class="form-control" id="Date" name="Date" value="@Model.Date.ToString("yyyy-MM-dd")" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save Changes</button>
+</form>
