@@ -1,50 +1,102 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\lab_services_student\\Desktop\\CLASSWORK\\EventEaseBookingSystem\\",
+  "WorkspaceRootPath": "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|c:\\users\\lab_services_student\\desktop\\classwork\\eventeasebookingsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|c:\\users\\lab_services_student\\desktop\\clouddevelopmentproject\\clouddevelopmentproject\\eventeasebookingsystem\\views\\venue\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|solutionrelative:views\\venue\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|c:\\users\\lab_services_student\\desktop\\classwork\\eventeasebookingsystem\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|solutionrelative:data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|c:\\users\\lab_services_student\\desktop\\classwork\\eventeasebookingsystem\\models\\eventmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|solutionrelative:models\\eventmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|c:\\users\\lab_services_student\\desktop\\classwork\\eventeasebookingsystem\\views\\event\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|solutionrelative:views\\event\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|c:\\users\\lab_services_student\\desktop\\classwork\\eventeasebookingsystem\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|solutionrelative:controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|c:\\users\\lab_services_student\\desktop\\classwork\\eventeasebookingsystem\\views\\event\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|solutionrelative:views\\event\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|c:\\users\\lab_services_student\\desktop\\classwork\\eventeasebookingsystem\\views\\booking\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|c:\\users\\lab_services_student\\desktop\\clouddevelopmentproject\\clouddevelopmentproject\\eventeasebookingsystem\\views\\booking\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|solutionrelative:views\\booking\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|c:\\users\\lab_services_student\\desktop\\classwork\\eventeasebookingsystem\\views\\booking\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|solutionrelative:views\\booking\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|c:\\users\\lab_services_student\\desktop\\classwork\\eventeasebookingsystem\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|solutionrelative:controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|c:\\users\\lab_services_student\\desktop\\classwork\\eventeasebookingsystem\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|c:\\users\\lab_services_student\\desktop\\clouddevelopmentproject\\clouddevelopmentproject\\eventeasebookingsystem\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|solutionrelative:models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|c:\\users\\lab_services_student\\desktop\\classwork\\eventeasebookingsystem\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|c:\\users\\lab_services_student\\desktop\\clouddevelopmentproject\\clouddevelopmentproject\\eventeasebookingsystem\\views\\event\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|solutionrelative:views\\event\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|c:\\users\\lab_services_student\\desktop\\clouddevelopmentproject\\clouddevelopmentproject\\eventeasebookingsystem\\views\\event\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|solutionrelative:views\\event\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|c:\\users\\lab_services_student\\desktop\\clouddevelopmentproject\\clouddevelopmentproject\\eventeasebookingsystem\\views\\event\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|solutionrelative:views\\event\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|c:\\users\\lab_services_student\\desktop\\clouddevelopmentproject\\clouddevelopmentproject\\eventeasebookingsystem\\views\\event\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|solutionrelative:views\\event\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|c:\\users\\lab_services_student\\desktop\\clouddevelopmentproject\\clouddevelopmentproject\\eventeasebookingsystem\\models\\venuemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|solutionrelative:models\\venuemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|c:\\users\\lab_services_student\\desktop\\clouddevelopmentproject\\clouddevelopmentproject\\eventeasebookingsystem\\models\\eventmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|solutionrelative:models\\eventmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|c:\\users\\lab_services_student\\desktop\\clouddevelopmentproject\\clouddevelopmentproject\\eventeasebookingsystem\\views\\venue\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|solutionrelative:views\\venue\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|c:\\users\\lab_services_student\\desktop\\clouddevelopmentproject\\clouddevelopmentproject\\eventeasebookingsystem\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|c:\\users\\lab_services_student\\desktop\\clouddevelopmentproject\\clouddevelopmentproject\\eventeasebookingsystem\\views\\booking\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|solutionrelative:views\\booking\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|c:\\users\\lab_services_student\\desktop\\clouddevelopmentproject\\clouddevelopmentproject\\eventeasebookingsystem\\views\\venue\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|solutionrelative:views\\venue\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|c:\\users\\lab_services_student\\desktop\\clouddevelopmentproject\\clouddevelopmentproject\\eventeasebookingsystem\\views\\booking\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|solutionrelative:views\\booking\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|c:\\users\\lab_services_student\\desktop\\clouddevelopmentproject\\clouddevelopmentproject\\eventeasebookingsystem\\controllers\\venuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|solutionrelative:controllers\\venuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|c:\\users\\lab_services_student\\desktop\\clouddevelopmentproject\\clouddevelopmentproject\\eventeasebookingsystem\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|solutionrelative:controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|c:\\users\\lab_services_student\\desktop\\clouddevelopmentproject\\clouddevelopmentproject\\eventeasebookingsystem\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|solutionrelative:controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|c:\\users\\lab_services_student\\desktop\\clouddevelopmentproject\\clouddevelopmentproject\\eventeasebookingsystem\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|solutionrelative:data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|c:\\users\\lab_services_student\\desktop\\clouddevelopmentproject\\clouddevelopmentproject\\eventeasebookingsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|c:\\users\\lab_services_student\\desktop\\clouddevelopmentproject\\clouddevelopmentproject\\eventeasebookingsystem\\views\\booking\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|solutionrelative:views\\booking\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|c:\\users\\lab_services_student\\desktop\\clouddevelopmentproject\\clouddevelopmentproject\\eventeasebookingsystem\\views\\venue\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|solutionrelative:views\\venue\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|c:\\users\\lab_services_student\\desktop\\clouddevelopmentproject\\clouddevelopmentproject\\eventeasebookingsystem\\views\\venue\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|solutionrelative:views\\venue\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|c:\\users\\lab_services_student\\desktop\\clouddevelopmentproject\\clouddevelopmentproject\\eventeasebookingsystem\\views\\event\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|solutionrelative:views\\event\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|c:\\users\\lab_services_student\\desktop\\clouddevelopmentproject\\clouddevelopmentproject\\eventeasebookingsystem\\views\\booking\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31C71E81-3234-49AF-AA00-82321D3F5898}|EventEaseBookingSystem.csproj|solutionrelative:views\\booking\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,150 +106,297 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\CLASSWORK\\EventEaseBookingSystem\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\CLASSWORK\\EventEaseBookingSystem\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "VenueModel.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\Models\\VenueModel.cs",
+              "RelativeDocumentMoniker": "Models\\VenueModel.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\Models\\VenueModel.cs",
+              "RelativeToolTip": "Models\\VenueModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T12:51:00.74Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EventController.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\CLASSWORK\\EventEaseBookingSystem\\Controllers\\EventController.cs",
-              "RelativeDocumentMoniker": "Controllers\\EventController.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\CLASSWORK\\EventEaseBookingSystem\\Controllers\\EventController.cs",
-              "RelativeToolTip": "Controllers\\EventController.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAowDoAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T13:02:26.704Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\CLASSWORK\\EventEaseBookingSystem\\Views\\Event\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Event\\Index.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\CLASSWORK\\EventEaseBookingSystem\\Views\\Event\\Index.cshtml",
-              "RelativeToolTip": "Views\\Event\\Index.cshtml",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAowBkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-07T12:31:55.806Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-07T12:49:30.98Z",
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "EventModel.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\CLASSWORK\\EventEaseBookingSystem\\Models\\EventModel.cs",
-              "RelativeDocumentMoniker": "Models\\EventModel.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\CLASSWORK\\EventEaseBookingSystem\\Models\\EventModel.cs",
-              "RelativeToolTip": "Models\\EventModel.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAIAzwB4AAAAHAAAAAAAAAA==",
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "Models\\Booking.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\Models\\Booking.cs",
+              "RelativeToolTip": "Models\\Booking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T12:53:43.593Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T14:57:24.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "create.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\Views\\Event\\create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Event\\create.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\Views\\Event\\create.cshtml",
+              "RelativeToolTip": "Views\\Event\\create.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAkwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T13:36:12.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\Views\\Event\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Event\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\Views\\Event\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Event\\Edit.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAkwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T12:02:32.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\Views\\Event\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Event\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\Views\\Event\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Event\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T12:10:45.304Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SeedData.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\CLASSWORK\\EventEaseBookingSystem\\Data\\SeedData.cs",
-              "RelativeDocumentMoniker": "Data\\SeedData.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\CLASSWORK\\EventEaseBookingSystem\\Data\\SeedData.cs",
-              "RelativeToolTip": "Data\\SeedData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T12:49:09.05Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\Views\\Booking\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Booking\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\Views\\Booking\\Index.cshtml",
+              "RelativeToolTip": "Views\\Booking\\Index.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAkwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T13:42:36.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\Views\\Venue\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Venue\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\Views\\Venue\\Index.cshtml",
+              "RelativeToolTip": "Views\\Venue\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAmwBIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T12:03:58.791Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\CLASSWORK\\EventEaseBookingSystem\\Views\\Booking\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Booking\\Index.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\CLASSWORK\\EventEaseBookingSystem\\Views\\Booking\\Index.cshtml",
-              "RelativeToolTip": "Views\\Booking\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\Views\\Event\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Event\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\Views\\Event\\Index.cshtml",
+              "RelativeToolTip": "Views\\Event\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAkwCwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-07T12:29:17.237Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\CLASSWORK\\EventEaseBookingSystem\\Views\\Event\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Event\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\CLASSWORK\\EventEaseBookingSystem\\Views\\Event\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Event\\Edit.cshtml",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAAA8AAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-07T13:58:10.553Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-13T13:42:04.672Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "BookingController.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\CLASSWORK\\EventEaseBookingSystem\\Controllers\\BookingController.cs",
-              "RelativeDocumentMoniker": "Controllers\\BookingController.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\CLASSWORK\\EventEaseBookingSystem\\Controllers\\BookingController.cs",
-              "RelativeToolTip": "Controllers\\BookingController.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAowD0AAAAmAAAAAAAAAA==",
+              "Title": "EventModel.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\Models\\EventModel.cs",
+              "RelativeDocumentMoniker": "Models\\EventModel.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\Models\\EventModel.cs",
+              "RelativeToolTip": "Models\\EventModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T12:24:51.235Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\CLASSWORK\\EventEaseBookingSystem\\Views\\Booking\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Booking\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\CLASSWORK\\EventEaseBookingSystem\\Views\\Booking\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Booking\\Edit.cshtml",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-07T12:28:01.456Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T16:09:03.814Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Booking.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\CLASSWORK\\EventEaseBookingSystem\\Models\\Booking.cs",
-              "RelativeDocumentMoniker": "Models\\Booking.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\CLASSWORK\\EventEaseBookingSystem\\Models\\Booking.cs",
-              "RelativeToolTip": "Models\\Booking.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T12:34:10.736Z",
-              "EditorCaption": ""
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\Views\\Venue\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Venue\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\Views\\Venue\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Venue\\Edit.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAkwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T10:48:59.049Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\CLASSWORK\\EventEaseBookingSystem\\Data\\ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\CLASSWORK\\EventEaseBookingSystem\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T13:37:30.207Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T13:37:30.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "create.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\Views\\Venue\\create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Venue\\create.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\Views\\Venue\\create.cshtml",
+              "RelativeToolTip": "Views\\Venue\\create.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAkwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T12:03:23.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\Views\\Booking\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Booking\\Create.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\Views\\Booking\\Create.cshtml",
+              "RelativeToolTip": "Views\\Booking\\Create.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAkwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T13:38:41.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\Views\\Booking\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Booking\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\Views\\Booking\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Booking\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T12:28:01.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "VenueController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\Controllers\\VenueController.cs",
+              "RelativeDocumentMoniker": "Controllers\\VenueController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\Controllers\\VenueController.cs",
+              "RelativeToolTip": "Controllers\\VenueController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAowC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T10:39:17.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BookingController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "Controllers\\BookingController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAowCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T20:23:11.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EventController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\Controllers\\EventController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EventController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\Controllers\\EventController.cs",
+              "RelativeToolTip": "Controllers\\EventController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAawGMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T13:02:26.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\Data\\SeedData.cs",
+              "RelativeDocumentMoniker": "Data\\SeedData.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\Data\\SeedData.cs",
+              "RelativeToolTip": "Data\\SeedData.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAowE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T12:49:09.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-06T10:10:03.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\Views\\Booking\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Booking\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\Views\\Booking\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Booking\\Delete.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAmwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T12:06:45.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\Views\\Venue\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Venue\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\Views\\Venue\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Venue\\Delete.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T12:08:23.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\Views\\Venue\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Venue\\Details.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\Views\\Venue\\Details.cshtml",
+              "RelativeToolTip": "Views\\Venue\\Details.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T12:09:07.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\Views\\Event\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Event\\Details.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\Views\\Event\\Details.cshtml",
+              "RelativeToolTip": "Views\\Event\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T12:09:52.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\Views\\Booking\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Booking\\Details.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\Views\\Booking\\Details.cshtml",
+              "RelativeToolTip": "Views\\Booking\\Details.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAkwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T12:11:54.285Z"
             }
           ]
         }

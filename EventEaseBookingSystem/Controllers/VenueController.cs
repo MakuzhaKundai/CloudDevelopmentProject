@@ -1,19 +1,45 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using EventEaseBookingSystem.Data;
 using EventEaseBookingSystem.Models;
+using System.Threading.Tasks;
 
 namespace EventEaseBookingSystem.Controllers
 {
     public class VenueController : Controller
     {
-        public IActionResult Index()
-        {
-            var venues = new List<VenueModel>
-            {
-                new VenueModel { Id = 1, Name = "Monte Casino", Location = "Fourways Sandton", Capacity = 300, ImageUrl = "https://via.placeholder.com/300x200?text=Venue+1" },
-                new VenueModel { Id = 2, Name = "FNB Stadium", Location = "Uptown", Capacity = 1000, ImageUrl = "https://via.placeholder.com/300x200?text=Venue+2" }
-            };
+        private readonly ApplicationDbContext _context;
 
-            return View(venues);
+        public VenueController(ApplicationDbContext context)
+        {
+            _context = context;
+        }
+
+        // GET: Venue/Create
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        // POST: Venue/Create
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create([Bind("Id,VenueName,Location,Address,Description,ImageUrl")] VenueModel venueModel)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Add(venueModel);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+            return View(venueModel);
+        }
+
+        // GET: Venue/Index
+        public async Task<IActionResult> Index()
+        {
+            return View(await _context.Venues.ToListAsync());
         }
     }
 }

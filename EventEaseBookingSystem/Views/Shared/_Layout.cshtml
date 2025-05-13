@@ -27,15 +27,23 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-controller="Events" asp-action="Index">Events</a>
+                            <a class="nav-link text-dark" asp-controller="Event" asp-action="Index">Events</a>
                         </li>
-                        
+
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-controller="Booking" asp-action="Index">Booking</a>
+                            <a class="nav-link text-dark" asp-controller="Booking" asp-action="Index">Bookings</a>
                         </li>
+
+                    
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-controller="Venue" asp-action="Index">Venue</a>
                         </li>
+                        <environment include="Development">
+                            <script src="~/lib/jquery/dist/jquery.min.js"></script>
+                            <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+                            <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+                        </environment>
+
 
                     </ul>
                 </div>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lab_services_student\\Desktop\\CLASSWORK\\EventEaseBookingSystem\\EventEaseBookingSystem.csproj": {}
+    "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\EventEaseBookingSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lab_services_student\\Desktop\\CLASSWORK\\EventEaseBookingSystem\\EventEaseBookingSystem.csproj": {
+    "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\EventEaseBookingSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lab_services_student\\Desktop\\CLASSWORK\\EventEaseBookingSystem\\EventEaseBookingSystem.csproj",
+        "projectUniqueName": "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\EventEaseBookingSystem.csproj",
         "projectName": "EventEaseBookingSystem",
-        "projectPath": "C:\\Users\\lab_services_student\\Desktop\\CLASSWORK\\EventEaseBookingSystem\\EventEaseBookingSystem.csproj",
+        "projectPath": "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\EventEaseBookingSystem.csproj",
         "packagesPath": "C:\\Users\\lab_services_student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lab_services_student\\Desktop\\CLASSWORK\\EventEaseBookingSystem\\obj\\",
+        "outputPath": "C:\\Users\\lab_services_student\\Desktop\\CloudDevelopmentProject\\CloudDevelopmentProject\\EventEaseBookingSystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -16,13 +16,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\EventEaseBookingSystem.e8d9uqkv7t.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ws6Rr\u002BOnSALIFmDAN5\u002BgDFARvsBmy58hUjzRagqzMkw="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1140"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ws6Rr\u002BOnSALIFmDAN5\u002BgDFARvsBmy58hUjzRagqzMkw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 07 Apr 2025 12:58:32 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1140"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ws6Rr\u002BOnSALIFmDAN5\u002BgDFARvsBmy58hUjzRagqzMkw=\u0022"},{"Name":"Last-Modified","Value":"Tue, 13 May 2025 13:08:13 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/EventEaseBookingSystem/EventEaseBookingSystem.e8d9uqkv7t.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\EventEaseBookingSystem.e8d9uqkv7t.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"e8d9uqkv7t"},{"Name":"integrity","Value":"sha256-ws6Rr\u002BOnSALIFmDAN5\u002BgDFARvsBmy58hUjzRagqzMkw="},{"Name":"label","Value":"_content/EventEaseBookingSystem/EventEaseBookingSystem.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1140"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ws6Rr\u002BOnSALIFmDAN5\u002BgDFARvsBmy58hUjzRagqzMkw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 07 Apr 2025 12:58:32 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1140"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ws6Rr\u002BOnSALIFmDAN5\u002BgDFARvsBmy58hUjzRagqzMkw=\u0022"},{"Name":"Last-Modified","Value":"Tue, 13 May 2025 13:08:13 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/EventEaseBookingSystem/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>

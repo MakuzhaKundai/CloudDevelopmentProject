@@ -1,77 +1,99 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using EventEaseBookingSystem.Data;
 using EventEaseBookingSystem.Models;
-using Microsoft.EntityFrameworkCore;
+using System.Threading.Tasks;
 
-public class EventController : Controller
+namespace EventEaseBookingSystem.Controllers
 {
-    private readonly ApplicationDbContext _context;
-
-    public EventController(ApplicationDbContext context)
+    public class EventController : Controller
     {
-        _context = context;
-    }
+        private readonly ApplicationDbContext _context;
 
-    // GET: Event/Index
-    public async Task<IActionResult> Index()
-    {
-        var events = await _context.Events.ToListAsync();
-        return View(events);  // Passing the list of events to the view
-    }
-
-    // GET: Event/Edit/5
-    public async Task<IActionResult> Edit(int id)
-    {
-        if (id == 0)
+        public EventController(ApplicationDbContext context)
         {
-            return NotFound();
+            _context = context;
         }
 
-        var eventModel = await _context.Events.FindAsync(id);
-        if (eventModel == null)
+        // GET: Event/Create
+        public IActionResult Create()
         {
-            return NotFound();
+            return View();
         }
 
-        return View(eventModel);  // Passing the event object to the view
-    }
-
-    // POST: Event/Edit/5
-    [HttpPost]
-    [ValidateAntiForgeryToken]
-    public async Task<IActionResult> Edit(int id, [Bind("Id,EventName,VenueName,Description,ImageUrl,Date")] EventModel eventModel)
-    {
-        if (id != eventModel.Id)
+        // POST: Event/Create
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create([Bind("Id,Title,Description,Date,VenueName,Location")] EventModel eventModel)
         {
-            return NotFound();
-        }
-
-        if (ModelState.IsValid)
-        {
-            try
+            if (ModelState.IsValid)
             {
-                _context.Update(eventModel);
+                _context.Add(eventModel);
                 await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
             }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!EventExists(eventModel.Id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-            return RedirectToAction(nameof(Index));  // Redirect to the Index page after saving changes
+            return View(eventModel);
         }
-        return View(eventModel);  // Return the view with validation errors if any
-    }
 
-    // Helper method to check if the event exists in the database
-    private bool EventExists(int id)
-    {
-        return _context.Events.Any(e => e.Id == id);
+        // GET: Event/Index
+        public async Task<IActionResult> Index()
+        {
+            return View(await _context.Events.ToListAsync());
+        }
+
+        // GET: Event/Edit/5
+        public async Task<IActionResult> Edit(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var eventModel = await _context.Events.FindAsync(id);
+            if (eventModel == null)
+            {
+                return NotFound();
+            }
+            return View(eventModel);
+        }
+
+        // POST: Event/Edit/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,Description,Date,VenueName,Location")] EventModel eventModel)
+        {
+            if (id != eventModel.Id)
+            {
+                return NotFound();
+            }
+
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    _context.Update(eventModel);
+                    await _context.SaveChangesAsync();
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    if (!EventModelExists(eventModel.Id))
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
+                    }
+                }
+                return RedirectToAction(nameof(Index));
+            }
+            return View(eventModel);
+        }
+
+        private bool EventModelExists(int id)
+        {
+            return _context.Events.Any(e => e.Id == id);
+        }
     }
 }

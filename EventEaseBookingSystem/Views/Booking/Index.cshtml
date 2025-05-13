@@ -3,24 +3,43 @@
 *@
 @{
 }
-@model IEnumerable<EventEaseBookingSystem.Models.BookingModel>
+@model IEnumerable<BookingModel>
+@{
+    ViewData["Title"] = "Bookings";
+}
 
-<h2>Bookings</h2>
-<p>Make bookings bellow</p>
-<div class="row">
-    @foreach (var booking in Model)
-    {
-        <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-                <div class="card-body">
-                    <h5 class="card-title">@booking.BookingId</h5>
-                    <p class="card-text">Event: @booking.EventName</p>
-                    <p class="card-text">Venue: @booking.VenueName</p>
-                    <p class="card-text">Start: @booking.StartDate.ToShortDateString()</p>
-                    <p class="card-text">End: @booking.EndDate.ToShortDateString()</p>
-                    <a href="@Url.Action("Edit", new { id = booking.Id })" class="btn btn-primary">Edit</a>
-                </div>
-            </div>
-        </div>
-    }
-</div>
+<h1>Bookings</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Booking ID</th>
+            <th>Event</th>
+            <th>Venue</th>
+            <th>Start</th>
+            <th>End</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.BookingId</td>
+                <td>@item.Event?.Title</td>
+                <td>@item.Event?.Venue?.VenueName</td>
+                <td>@item.StartDate.ToString("g")</td>
+                <td>@item.EndDate.ToString("g")</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

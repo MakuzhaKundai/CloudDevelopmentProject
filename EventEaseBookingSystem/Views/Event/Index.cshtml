@@ -3,23 +3,42 @@
 *@
 @{
 }
-@model IEnumerable<EventEaseBookingSystem.Models.EventModel>
+@model IEnumerable<EventModel>
+
+@{
+    ViewData["Title"] = "Events";
+}
 
 <h2>Events</h2>
 
-<div class="row">
-    @foreach (var ev in Model)
-    {
-        <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-                <img src="@ev.ImageUrl" class="card-img-top" alt="@ev.EventName" />
-                <div class="card-body">
-                    <h5 class="card-title">@ev.EventName</h5>
-                    <p class="card-text">Date: @ev.Date.ToShortDateString()</p>
-                    <p class="card-text">Venue: @ev.VenueName</p>
-                    <a href="@Url.Action("Edit", new { id = ev.Id })" class="btn btn-primary">Edit</a>
-                </div>
-            </div>
-        </div>
-    }
-</div>
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Event Date</th>
+            <th>Venue</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Title</td>
+                <td>@item.Description</td>
+                <td>@item.EventDate.ToString("yyyy-MM-dd")</td>
+                <td>@item.Venue?.VenueName</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

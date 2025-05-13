@@ -3,22 +3,43 @@
 *@
 @{
 }
-@model List<EventEaseBookingSystem.Models.VenueModel>
+@model IEnumerable<VenueModel>
+@{
+    ViewData["Title"] = "Venues";
+}
+
+<h1>Venues</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Location</th>
+            <th>Address</th>
+            <th>Description</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.VenueName</td>
+                <td>@item.Location</td>
+                <td>@item.Address</td>
+                <td>@item.Description</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
 
 
-<h2>Venues</h2>
-<div class="row">
-    @foreach (var venue in Model)
-    {
-        <div class="col-md-4">
-            <div class="card mb-4">
-                <img src="@venue.ImageUrl" class="card-img-top" alt="@venue.Name" />
-                <div class="card-body">
-                    <h5 class="card-title">@venue.Name</h5>
-                    <p class="card-text">Location: @venue.Location</p>
-                    <p class="card-text">Capacity: @venue.Capacity</p>
-                </div>
-            </div>
-        </div>
-    }
-</div>
